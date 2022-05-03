@@ -851,3 +851,24 @@
 	transform: translateY(-5px);
 	text-decoration: none;
 }
+.whats-to-top{
+	display: block;
+	text-align: center;
+	background-color: #fff;
+	font-size: 10px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 3px;
+	position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+}
+.whats-to-top:hover{
+  color: #fff;
+-webkit-transform: translateY(-5px);
+transform: translateY(-5px);
+text-decoration: none;
+}

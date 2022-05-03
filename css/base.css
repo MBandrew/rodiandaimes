@@ -345,6 +345,7 @@ textarea:-ms-input-placeholder{
 .minus-mt-50{ margin-top: -50px; }
 .minus-mt-60{ margin-top: -60px; }
 .mius-mr-15{ margin-right: -15px; }
+
 .no-margin{ margin: 0 !important; }
 .ml-10{ margin-left: 10px; }
 .ml-15{ margin-left: 15px; }
@@ -354,6 +355,7 @@ textarea:-ms-input-placeholder{
 .mr-15{ margin-right: 15px; }
 .mr-20{ margin-right: 20px; }
 .mr-25{ margin-right: 25px; }
+.mr-50{ margin-right: 50px; }
 
 /* Font Size
    ================================= */
@@ -1133,4 +1135,19 @@ ul.top-social li a:hover{
 .aling-items-flex{
 	display: flex;
 	align-items: center;
+}
+.img-carousel {
+    max-width: 360px;
+    max-height: 200px;
+    object-fit: cover;
+}
+.img-footer {
+    max-width: 200px;
+    max-height: 95px;
+    object-fit: cover;
+}
+.img-whats {
+    max-width: 40px;
+    max-height: 40px;
+    object-fit: cover;
 }

@@ -41,9 +41,9 @@
     owlSlider.owlCarousel({
         items: 1,
         loop: true,
-        smartSpeed: 500,
+        smartSpeed: 1000,
         autoplayTimeout: 3500,
-        autoplay: false,
+        autoplay: true,
         nav: true,
         navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>']
     });
